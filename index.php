@@ -3,12 +3,15 @@
     <head>
         <meta charset="utf-8"/>
         <link rel="stylesheet" href="style.css"/>
+        <script></script>
         <title>X-Fly</title>
     </head>
     <body>
         <header>
             <img id="logo" src="" alt="Logo XFly">
-            <input type="button"
+            <input type="button" value="Ajouter un vol">
+            <input type="button" value="Modifier un vol">
+            <input type="button" value="Retirer un vol">
         </header>
     </body>
 </html>
