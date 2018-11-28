@@ -8,7 +8,10 @@
     <body>
         <header>
             <img id="logo" src="" alt="Logo XFly">
-            <input type="button"
+            <input type="button" value="Ajouter un vol">
+            <input type="button" value="Modifier un vol">
+            <input type="button" value="Retirer un vol">FDP
+
         </header>
     </body>
 </html>
