@@ -1,4 +1,46 @@
 html, body{
-    width: 100%;
-    height: 100%;
+    width:100%;
+    height:100%;
+    background-image: url("img/airbus-beluga.jpg");
+}
+.header{
+    width:98.5%;
+    height:20%;
+    background-color:lightblue;
+}
+.header{
+    text-align:center;
+}
+.boutonsA{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #39ff4e;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+}
+.boutonsM{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #478bf9;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+}
+.boutonsR{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #ff1919;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
 }
