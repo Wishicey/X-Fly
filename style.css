@@ -1,8 +1,141 @@
 html, body{
+    margin:0;
+    padding:0;
     width: 100%;
     height: 100%;
+    background-image: url("img/airbus-beluga.jpg");
 }
 
 .button{
 
+    width:100%;
+    height:100%;
+
 }
+.header{
+    width:100%;
+    height:20%;
+    background-color:lightblue;
+
+}
+.header{
+    text-align:center;
+}
+.boutonsA{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #39ff4e;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+}
+.boutonsM{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #478bf9;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+}
+.boutonsR{
+    width:110px;
+    height:40px;
+    border-radius:12px 0 12px 0;
+    background: #ff1919;
+    color:#fff;
+    font:bold 12px Verdana;
+    padding:6px 0 6px 0;
+    border:1px solid #ccc;
+    box-shadow:1px 1px 3px #999;
+
+}
+.option_gauche{
+    width:100%;
+    height:100%;
+    background:rgba(41, 185, 24,0 );
+
+    border:2px solid black;
+    background-size: 500px;
+
+
+}
+
+#Ajouter{
+    Background-image:  linear-gradient(rgba(41, 185, 24, 1), rgba(144,242,132, 1));
+
+}
+#volet {
+    width: 265px;
+    padding: 5px;
+    background: rgba(41, 185, 24, 0);
+    border-left:2px;
+    position: relative;
+    left: -270px; top: 37px;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+
+
+}
+#volet_clos {
+    width: 250px;
+    padding: 2px;
+    background: rgba(41, 185, 24, 0);
+    border-left:5px;
+    position: relative;
+    left: -15px; top: 37px;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+
+
+
+}
+#volet_clos a.fermer {
+    position: absolute;
+    right: -76px;
+    top: 400px;
+    background-color:white;
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    padding: 10px 28px;
+
+    color: red;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid black;
+}
+
+#volet a.ouvrir {
+    position: absolute;
+    right: -71px;
+    top: 280px;
+    background-color:white;
+    /* quelques styles CSS3 */
+    -ms-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    padding: 10px 25px;
+
+    color: limegreen;
+    text-decoration: none;
+    border-radius: 0 0 20px 20px;
+    border: 2px solid black;
+}
+#volet:target {
+    left: 0;
+
+}
+label{
+    color:black;
+}
+
+
