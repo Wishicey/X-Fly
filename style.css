@@ -1,5 +1,5 @@
 html, body{
-    width:100%;
+    width:99.5%;
     height:100%;
     background-image: url("img/airbus-beluga.jpg");
 }
@@ -43,4 +43,8 @@ html, body{
     padding:6px 0 6px 0;
     border:1px solid #ccc;
     box-shadow:1px 1px 3px #999;
+}
+
+.button{
+
 }
