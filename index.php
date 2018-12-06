@@ -7,17 +7,13 @@
     </head>
     <body>
         <div class="header">
-            <img id="logo" src="" alt="Logo XFly">
-
-            <input type="button" value="Ajouter un vol">
-            <input type="button" value="Modifier un vol">
-            <input type="button" value="Retirer un vol">
+            <img id="logo" src="img/LogoXfly.png" alt="Logo XFly">
             <p>
                 <input class="boutonsA" type="button" value="Ajouter un vol">
                 <input class="boutonsM" type="button" value="Modifier un vol">
                 <input class="boutonsR" type="button" value="Retirer un vol">
             </p>
-        </header>
+        </div>
         <div id="volet_clos">
             <div id="volet">
                 <a href="#volet" class="ouvrir">Ouvrir !</a>
@@ -27,7 +23,7 @@
                         <p>
                             <label for="Aeroport_D">Aéroport de départ?</label><br />
                             <select name="Aeroport" id="Aeroport">
-                                <option value="france">NTM AXEL</option>
+                                <option value="france">oui</option>
                                 <option value="espagne">Espagne</option>
                                 <option value="italie">Italie</option>
                                 <option value="royaume-uni">Royaume-Uni</option>
@@ -89,8 +85,8 @@
                         <p>
                             <label for="Avion">Avion Concerné?</label><br />
                             <select name="Avion" id="Avion">
-                                <option value="france">France</option>
-                                <option value="espagne">Espagne</option>
+                                <option value="france">Nathalie</option>
+                                <option value="espagne">Sylvie</option>
                                 <option value="italie">Italie</option>
                                 <option value="royaume-uni">Royaume-Uni</option>
                                 <option value="canada">Canada</option>
@@ -133,6 +129,11 @@
                 </div>
             </div>
         </div>
+        <div class="liste">
+
+        </div>
+
+
 
 
     </body>
