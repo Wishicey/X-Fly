@@ -8,11 +8,15 @@
     <body>
         <div class="header">
             <img id="logo" src="img/LogoXfly.png" alt="Logo XFly">
+            <marquee direction="left" behavior="scroll" scrollamount="5" style="height:25px;width:400px;background-color:red;font-family:Verdana;font-size:14pt;color:#000000;
+            font-weight:bold;border-width:6px ;border-style: inset;border-color:ghostwhite; " >Prochaine arret : Gare de Vaise</marquee>
             <p>
-                <input  id="boutonsA" type="button" value="Ajouter un vol">
-                <input  id="boutonsM" type="button" value="Modifier un vol">
-                <input  id="boutonsR" type="button" value="Retirer un vol">
+                <input  id="boutonsA" class="buttonhead" type="button" value="Ajouter un vol">
+                <input  id="boutonsM" class="buttonhead" type="button" value="Modifier un vol">
+                <input  id="boutonsR" class="buttonhead" type="button" value="Retirer un vol">
             </p>
+
+        </div>
         <div id="volet_clos">
             <div id="volet">
                 <a href="#volet" class="ouvrir">Ouvrir !</a>
@@ -244,7 +248,9 @@
         <div class="liste">
 
         </div>
+        <div class="footer">
 
+        </div>
         <script src="jquery-3.3.1.js"></script>
         <script src="boutonpage.js"></script>
     </body>
